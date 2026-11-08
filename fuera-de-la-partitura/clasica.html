@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fuera de la partitura: el viaje de la música clásica hacia los sonidos de hoy.">
+  <title>Música clásica · Fuera de la partitura</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,500&family=EB+Garamond:wght@400;500&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="nav">
+    <a href="index.html" class="nav__logo">Fuera de la partitura</a>
+    <nav class="nav__links" aria-label="Páginas del libro">
+      <a href="index.html">Inicio</a>
+      <a href="clasica.html" aria-current="page">Música clásica</a>
+      <a href="rock.html">Rock y más</a>
+      <a href="latina.html">De la calle a la sinfónica</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="cap cap--verde" id="clasica">
+
+      <header class="cap__cabecera">
+        <span class="cap__num">01</span>
+        <h2>Música clásica</h2>
+        <img class="cap__img" src="img/piano.png" alt="Piano de cola de madera">
+      </header>
+
+      <ol class="linea reveal" aria-label="Línea de tiempo del capítulo">
+        <li><span class="linea__epoca">Siglo XVIII</span><span class="linea__dato">Los mecenas</span></li>
+        <li><span class="linea__epoca">Final del siglo</span><span class="linea__dato">Eventos con boletas</span></li>
+        <li><span class="linea__epoca">Siglo XX</span><span class="linea__dato">Radio y televisión</span></li>
+      </ol>
+
+      <article class="bloque empezo reveal">
+        <h3 class="titulo">Conoce cómo empezó</h3>
+        <div class="empezo__cuadros">
+          <img src="img/pintura-musicos.jpg" alt="Pintura de dos músicos: uno toca el violín y el otro un laúd">
+          <img src="img/pintura-salon.jpg" alt="Pintura de un salón de baile con un violinista">
+        </div>
+        <div class="tarjeta empezo__texto">
+          <p>Durante varios años, La música clásica ha sido denominada exclusiva y perteneciente a épocas como el romanticismo, el barroco y a familias con alto poder político y social, con el pasar de los siglos, esta música se fue adaptando a nosotros y nosotros a ella, siendo más accesible en términos de aprender y variable entre nuevos géneros actuales. Acompáñame en este viaje de su evolución.</p>
+        </div>
+      </article>
+
+      <article class="bloque poder reveal">
+        <div class="tarjeta poder__titulo">
+          <h3 class="titulo">Símbolo de poder y prestigio</h3>
+          <img class="poder__cuadro" src="img/pintura-concierto.jpg" alt="Pintura de un concierto de cámara a la luz de las velas">
+        </div>
+        <div class="poder__texto">
+          <p>En el siglo XVIII los compositores y músicos no trabajaban de forma independiente; dependían enteramente de los mecenas (reyes, príncipes, nobles y altos cargos de la Iglesia).</p>
+          <p>Existía la propaganda política, ya que contratar una orquesta privada era denominado riqueza inmensa. Así mismo mantener un compositor privado de renombre como Mozart también era una demostración de la fortuna que mantenían las familias aristocráticas y peleaban por cual familia tenía la ópera más grande.</p>
+        </div>
+      </article>
+
+      <article class="bloque rebelion reveal">
+        <div class="boleta" aria-hidden="true">
+          <span class="boleta__sello">Boleta</span>
+          <span class="boleta__num">Nº 001</span>
+        </div>
+        <div class="rebelion__texto">
+          <h3 class="titulo">Época de rebelión</h3>
+          <p>Al final del siglo los compositores se independizaron de la nobleza y empezaron a organizar sus propios eventos con boletas, aun así, se excluía mucho a la población obrera por el costo de la boleta.</p>
+        </div>
+      </article>
+
+      <article class="bloque revolucion reveal">
+        <div class="revolucion__radio">
+          <img src="img/radio.png" alt="Radio antigua color naranja">
+        </div>
+        <div class="revolucion__texto">
+          <h3 class="titulo">La verdadera revolución</h3>
+          <p>El gran cambio cultural fue gracias a las radios y televisores, propiamente después de la revolución industrial, el género clásico se propago entre las distintas culturas, en el siglo XX por medios de comunicación empezaron a quitar el estigma de que el género era aburrido y sin sentido.</p>
+        </div>
+      </article>
+
+      <article class="bloque beethoven reveal">
+        <p>Recordemos que Beethoven fue uno de los compositores que cambio el rumbo de la música clásica, la revoluciono y dio paso a sonidos mas grandes y fuertes, algo mucho más narrativo y expresivo para representar diferentes cosas, dándole a la música una mayor amplitud frente a conocimientos.</p>
+        <figure>
+          <img src="img/beethoven.jpg" alt="Retrato de Beethoven con una partitura en la mano">
+        </figure>
+      </article>
+
+      <nav class="pager" aria-label="Navegación entre capítulos">
+        <a class="pager__link pager__link--prev" href="index.html"><small>Anterior</small>← Inicio</a>
+        <a class="pager__link pager__link--next" href="rock.html"><small>Siguiente</small>Rock y más →</a>
+      </nav>
+
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <p class="pie__titulo">Fuera de la partitura</p>
+    <p>El viaje de la música clásica hacia los sonidos de hoy</p>
+    <a href="pdf/fuera-de-la-partitura.pdf" class="pie__pdf" download>⬇ Descargar PDF interactivo</a>
+    <a href="index.html" class="pie__subir">← Volver al inicio</a>
+  </footer>
+
+</body>
+</html>

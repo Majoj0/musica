@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fuera de la partitura: el viaje de la música clásica hacia los sonidos de hoy.">
+  <title>Fuera de la partitura</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,500&family=EB+Garamond:wght@400;500&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="nav">
+    <a href="index.html" class="nav__logo">Fuera de la partitura</a>
+    <nav class="nav__links" aria-label="Páginas del libro">
+      <a href="index.html" aria-current="page">Inicio</a>
+      <a href="clasica.html">Música clásica</a>
+      <a href="rock.html">Rock y más</a>
+      <a href="latina.html">De la calle a la sinfónica</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero" id="inicio">
+      <div class="hero__fondo" aria-hidden="true"></div>
+      <div class="hero__velo" aria-hidden="true"></div>
+
+      <div class="hero__contenido">
+        <h1>Fuera de la <em>partitura</em></h1>
+        <p class="hero__sub">El viaje de la música clásica hacia los sonidos de hoy</p>
+        <div class="hero__botones">
+        <a href="clasica.html" class="boton">Comenzar el viaje <span aria-hidden="true">→</span></a>
+          <a href="pdf/fuera-de-la-partitura.pdf" class="boton boton--contorno" download>⬇ Descargar PDF interactivo</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bienvenida">
+      <blockquote class="bienvenida__cita reveal">
+        <p>Acompáñame en este viaje de su evolución.</p>
+        <footer>— <cite>Fuera de la partitura</cite>, p. 6</footer>
+      </blockquote>
+    </section>
+
+    <section class="indice" aria-labelledby="indice-titulo">
+      <h2 id="indice-titulo" class="indice__titulo">Tabla de contenido</h2>
+      <div class="indice__grid">
+
+        <a class="ficha ficha--verde" href="clasica.html">
+          <img class="ficha__png ficha__png--piano" src="img/piano.png" alt="">
+          <span class="ficha__num">01</span>
+          <span class="ficha__nombre">Música clásica</span>
+          <span class="ficha__pags">Páginas 5–8</span>
+          <ul class="ficha__lista">
+            <li>Conoce cómo empezó</li>
+            <li>Símbolo de poder y prestigio</li>
+            <li>Época de rebelión</li>
+            <li>La verdadera revolución</li>
+          </ul>
+          <span class="ficha__ir">Leer capítulo →</span>
+        </a>
+
+        <a class="ficha ficha--azul" href="rock.html">
+          <img class="ficha__png ficha__png--bateria" src="img/bateria.png" alt="">
+          <span class="ficha__num">02</span>
+          <span class="ficha__nombre">Rock y más</span>
+          <span class="ficha__pags">Páginas 9–12</span>
+          <ul class="ficha__lista">
+            <li>Nuevas formas de escuchar</li>
+            <li>Ópera y guitarras</li>
+          </ul>
+          <span class="ficha__ir">Leer capítulo →</span>
+        </a>
+
+        <a class="ficha ficha--cafe" href="latina.html">
+          <img class="ficha__png ficha__png--consola" src="img/consola-sintetizador.png" alt="">
+          <span class="ficha__num">03</span>
+          <span class="ficha__nombre">De la calle a la sinfónica</span>
+          <span class="ficha__pags">Páginas 13–15</span>
+          <ul class="ficha__lista">
+            <li>La vena musical</li>
+            <li>Matrimonio perfecto</li>
+            <li>El flow del violín</li>
+          </ul>
+          <span class="ficha__ir">Leer capítulo →</span>
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <p class="pie__titulo">Fuera de la partitura</p>
+    <p>El viaje de la música clásica hacia los sonidos de hoy</p>
+    <a href="pdf/fuera-de-la-partitura.pdf" class="pie__pdf" download>⬇ Descargar PDF interactivo</a>
+    <a href="index.html" class="pie__subir">← Volver al inicio</a>
+  </footer>
+
+</body>
+</html>
